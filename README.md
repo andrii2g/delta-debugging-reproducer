@@ -153,4 +153,3 @@ examples/
 Run `dotnet test -c Release`. Tests cover scenarios, non-monotonic predicates,
 duplicate positions, ordering, wrong failures, invalid inputs, cache accounting,
 budgets, cancellation, replayable artifacts, and SVG pagination/escaping.
-GitHub Actions builds and tests on Windows and Linux.
