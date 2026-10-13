@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DeltaDebugging.Core/DeltaDebugging.Core.csproj" />
+    <Project Path="src/DeltaDebugging.Demo/DeltaDebugging.Demo.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../DeltaDebugging.Core/DeltaDebugging.Core.csproj" /></ItemGroup>
+</Project>
