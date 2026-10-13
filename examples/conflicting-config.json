@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "name": "conflicting-config",
+  "operations": [
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-0"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-1"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-2"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-3"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-4"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-5"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-6"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-7"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-8"
+    },
+    {
+      "op": "enableEncryption",
+      "resource": null,
+      "value": null
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-10"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-11"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-12"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-13"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-14"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-15"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-16"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-17"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-18"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-19"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-20"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-21"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-22"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-23"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-24"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-25"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-26"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-27"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-28"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-29"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-30"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-31"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-32"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-33"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-34"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-35"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-36"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-37"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-38"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-39"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-40"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-41"
+    },
+    {
+      "op": "enableCompression",
+      "resource": null,
+      "value": null
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-43"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-44"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-45"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-46"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-47"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-48"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-49"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-50"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-51"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-52"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-53"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-54"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-55"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-56"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-57"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-58"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-59"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-60"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-61"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-62"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-63"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-64"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-65"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-66"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-67"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-68"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-69"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-70"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-71"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-72"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-73"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-74"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-75"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-76"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-77"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-78"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-79"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-80"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-81"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-82"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-83"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-84"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-85"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-86"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-87"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-88"
+    },
+    {
+      "op": "send",
+      "resource": null,
+      "value": null
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-90"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-91"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-92"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-93"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-94"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-95"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-96"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-97"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-98"
+    },
+    {
+      "op": "noop",
+      "resource": null,
+      "value": "noise-99"
+    }
+  ]
+}

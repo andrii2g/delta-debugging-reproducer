@@ -20,6 +20,7 @@ namespace DeltaDebugging.Cli
                 {
                     output.WriteLine("""
                         ddrepro replay <input.json>
+                        ddrepro generate <resource-lifecycle|conflicting-config|order-corruption> [--count N] [--seed N] [--output input.json]
                         ddrepro minimize <input.json> [--algorithm ddmin|naive] [--output directory] [--max-executions N]
                         ddrepro compare <input.json> [--output directory] [--max-executions N]
                         Exit codes: 0 success; 1 replay failure; 2 invalid input/tool error; 3 incomplete or unverified reduction; 130 cancelled.
@@ -28,9 +29,24 @@ namespace DeltaDebugging.Cli
                 }
                 if (args.Length < 2) throw new ArgumentException("A command and input path are required.");
                 string command = args[0];
-                if (command is not ("replay" or "minimize" or "compare"))
+                if (command is not ("replay" or "minimize" or "compare" or "generate"))
                     throw new ArgumentException("Unknown command. Use --help.");
                 var flags = ParseFlags(args[2..]);
+                if (command == "generate")
+                {
+                    if (flags.Keys.Except(["--count", "--seed", "--output"]).Any())
+                        throw new ArgumentException("Unsupported generator option.");
+                    if (!int.TryParse(flags.GetValueOrDefault("--count", "1000"), out int count)
+                        || !int.TryParse(flags.GetValueOrDefault("--seed", "42"), out int seed))
+                        throw new ArgumentException("--count and --seed must be integers.");
+                    var generated = Scenarios.Generate(args[1], count, seed);
+                    string path = flags.GetValueOrDefault("--output", "input.json");
+                    Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(path))!);
+                    using var stream = new FileStream(path, FileMode.CreateNew, FileAccess.Write);
+                    JsonSerializer.Serialize(stream, generated, Scenario.Json);
+                    output.WriteLine($"Generated {count} operations with seed {seed}: {Path.GetFullPath(path)}");
+                    return 0;
+                }
                 var allowed = command == "replay" ? Array.Empty<string>() : command == "compare"
                     ? ["--output", "--max-executions"] : new[] { "--output", "--max-executions", "--algorithm" };
                 if (flags.Keys.Except(allowed).Any()) throw new ArgumentException("Unsupported option for this command.");
