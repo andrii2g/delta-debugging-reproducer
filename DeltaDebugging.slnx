@@ -3,4 +3,7 @@
     <Project Path="src/DeltaDebugging.Core/DeltaDebugging.Core.csproj" />
     <Project Path="src/DeltaDebugging.Demo/DeltaDebugging.Demo.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DeltaDebugging.Tests/DeltaDebugging.Tests.csproj" />
+  </Folder>
 </Solution>
